@@ -22735,7 +22735,21 @@ var Home = function Home() {
 	return _react2.default.createElement(
 		'div',
 		null,
-		'I am the VERY VERY THE BEST Home Component'
+		_react2.default.createElement(
+			'div',
+			null,
+			'I am the VERY VERY THE BEST Home Component'
+		),
+		'>',
+		_react2.default.createElement(
+			'button',
+			{
+				onClick: function onClick() {
+					return console.log('What\'s up?');
+				}
+			},
+			'Press me'
+		)
 	);
 };
 
