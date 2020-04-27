@@ -90,7 +90,7 @@ var _renderer = __webpack_require__(4);
 
 var _renderer2 = _interopRequireDefault(_renderer);
 
-var _createStore = __webpack_require__(8);
+var _createStore = __webpack_require__(9);
 
 var _createStore2 = _interopRequireDefault(_createStore);
 
@@ -137,9 +137,9 @@ var _server = __webpack_require__(5);
 
 var _reactRouterDom = __webpack_require__(1);
 
-var _reactRedux = __webpack_require__(11);
+var _reactRedux = __webpack_require__(6);
 
-var _Routes = __webpack_require__(6);
+var _Routes = __webpack_require__(7);
 
 var _Routes2 = _interopRequireDefault(_Routes);
 
@@ -170,6 +170,12 @@ module.exports = require("react-dom/server");
 
 /***/ }),
 /* 6 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-redux");
+
+/***/ }),
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -185,7 +191,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouterDom = __webpack_require__(1);
 
-var _Home = __webpack_require__(7);
+var _Home = __webpack_require__(8);
 
 var _Home2 = _interopRequireDefault(_Home);
 
@@ -203,7 +209,7 @@ exports.default = function () {
 }; // this is file is to eb  shared between client and server
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -244,7 +250,7 @@ var Home = function Home() {
 exports.default = Home;
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -254,9 +260,9 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _redux = __webpack_require__(9);
+var _redux = __webpack_require__(10);
 
-var _reduxThunk = __webpack_require__(10);
+var _reduxThunk = __webpack_require__(11);
 
 var _reduxThunk2 = _interopRequireDefault(_reduxThunk);
 
@@ -269,22 +275,16 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports) {
 
 module.exports = require("redux");
 
 /***/ }),
-/* 10 */
-/***/ (function(module, exports) {
-
-module.exports = require("redux-thunk");
-
-/***/ }),
 /* 11 */
 /***/ (function(module, exports) {
 
-module.exports = require("react-redux");
+module.exports = require("redux-thunk");
 
 /***/ })
 /******/ ]);
